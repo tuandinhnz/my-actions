@@ -1,0 +1,9 @@
+name: 'Set Nuget PackageVersion'
+description: 'Set PackageVersion in csproj files'
+runs:
+  using: "composite"
+  steps:
+    - run: |
+        echo "Hello"
+        echo "My name is Tuan"
+      shell: bash
