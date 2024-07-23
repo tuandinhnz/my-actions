@@ -6,6 +6,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.1.7
+
       - name: Run set package verion action
         id: action
         uses: ./SetNugetPackageVersion
